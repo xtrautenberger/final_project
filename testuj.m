@@ -16,10 +16,15 @@ cit=[1 1 1];
 men=[1 1 1];
 analyzuj_vlastnosti(cit,men)
 
-% 3
+% 4
 disp('4. system')
 cit=[1 1];
 men=[1 0];
 analyzuj_vlastnosti(cit,men)
 
+% 5
+disp('5. system')
+cit=[1 1];
+men=[1 -2 3];
+analyzuj_vlastnosti(cit,men)
 

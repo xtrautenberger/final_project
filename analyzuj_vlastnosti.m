@@ -18,4 +18,9 @@ if (length(cit) <= length(men))
 else
     disp('System nie je fyzikalne realizovatelny!')
 end
+if (imag(roots([men]))>0 | imag(roots([men]))<0)
+    disp('System je periodicky!')   
+else
+    disp('System je aperiodicky!')
+end
 end
