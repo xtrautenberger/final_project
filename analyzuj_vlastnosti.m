@@ -14,7 +14,12 @@ else
     disp('System nie je stabilny!')
 end
 if (length(cit) <= length(men))
-    disp('System je fyzikalne realizovatelny!')   
+    disp('System je fyzikalne realizovatelny!')
+    G=tf(cit,men);
+    figure
+    step(G);
+    hold on
+
 else
     disp('System nie je fyzikalne realizovatelny!')
 end
