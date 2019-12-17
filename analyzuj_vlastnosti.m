@@ -6,4 +6,14 @@ elseif (length(cit) <= length(men))
 else
     disp('System nie je fyzikalne realizovatelny!')
 end
+if (roots([men])<0)
+    disp('System je stabilny.')      
+else
+    disp('System nie je stabilny!')
+end
+if (length(cit) <= length(men))
+    disp('System je fyzikalne realizovatelny!')   
+else
+    disp('System nie je fyzikalne realizovatelny!')
+end
 end
