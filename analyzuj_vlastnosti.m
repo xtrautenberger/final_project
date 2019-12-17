@@ -7,7 +7,9 @@ else
     disp('System nie je fyzikalne realizovatelny!')
 end
 if (roots([men])<0)
-    disp('System je stabilny.')      
+    disp('System je stabilny.')
+elseif (roots([men])==0)
+    disp('System je na hranici stability.')            
 else
     disp('System nie je stabilny!')
 end
